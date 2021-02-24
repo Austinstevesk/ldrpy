@@ -12,3 +12,10 @@ DOUT	- SPIO_MISO GPIO09 (Pin21)
 DIN	- SPIO_MOSI GPIO10 (Pin19)
 CS/SHDN	- SPIO_CEO_N GPIO24 (Pin24)
 DGND	- GND
+
+#Running the file
+git clone https://github.com/Austinstevesk/ldrpy.git
+
+cd ldrpy
+
+python3 ldr.py
